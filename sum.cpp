@@ -4,7 +4,7 @@ int sum(int n){
 		res += i;
 	}
 	return res;
-*/
+*/ 
 	return n * ( n + 1 ) / 2;
 }
 
