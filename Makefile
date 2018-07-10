@@ -9,7 +9,7 @@ main.o: sum.h main.cpp
 sum_test: main.o sum.o
 	g++ -o sum_test main.o sum.o
 
-clean:
+clean: 
 	rm -f *.o 
 	rm -f sum_test
 
